@@ -10,7 +10,7 @@ void main() {
     }
   }
 
-  if (isAllEven) {
+  if (isAllEven == true) {
     print("Semua elemen dalam list bernilai genap");
   } else {
     print("Elemen dalam list ada yang bernilai ganjil");
