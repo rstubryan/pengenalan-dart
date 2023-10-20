@@ -3,7 +3,9 @@ void main() {
   int score_B = 20;
   const int finish = 21;
 
-  if (score_A == score_B) {
+  if (score_A == 20 && score_B == 20) {
+    print('Deuce, Butuh selisih 2 angka untuk menang');
+  } else if (score_A == score_B) {
     print('Hasil sementara imbang');
   } else if (score_A < score_B) {
     print(
@@ -13,7 +15,5 @@ void main() {
     print(
         'Semangat Player B, kamu butuh ${score_A - score_B} poin lagi untuk menyusul');
     print('Player A, kamu butuh ${finish - score_A} poin untuk menang');
-  } else if (score_A == 20 && score_B == 20) {
-    print('Deuce, Butuh selisih 2 angka untuk menang');
   }
 }
